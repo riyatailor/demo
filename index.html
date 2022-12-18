@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
+
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribbler</title>
     <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="StyleSheet" href="index.css">
+    <link rel="StyleSheet" href="common.css">
 </head>
 
-<body>
+<body class="index-Body">
     <!-- TODO: Include all your code for the header and home page here -->
+    <header class="header">
+        <span class="logo">
+            <span class="scibbler">SciBBler</span>
+        <span class="btn-logo">
+                <button type="button" class="SignUp_btn">Sign up</button>
+                <button type="button" class="SignIn_btn">Sign In</button>
+        </span>
+        </span>
+        <br><br><br>
+        <span class="sub_Part">Explore, Imagine, Create</span>
+    </header>
+    <div class="Post-Btn">
+        <button type="button" class="AllPost_Btn">All Post</button>
+        <button type="button" class="CreatePost_Btn">Create Post</button>
+    </div>
+    <div class="SignUp-Form">
+        <form class="Form-Model">
+            <span class="Heading">Get Started</span>
+            <span class="close-SignUp">&times;</span>
+            <hr width="100%" color="grey">
+            <p>Name</p>
+            <input type="text" class="Input-name" placeholder="Enter your name" required>
+            <p>Username</p>
+            <input type="text" class="User-Input-name" placeholder="Enter your username" required>
+            <p>Password</p>
+            <input type="password" class="Input-password" placeholder="Enter your password" required>
+            <p>Confirm Password</p>
+            <input type="password" class="Input-Confirm-password" placeholder="Enter your Re-enter password" required>
+            <br>
+            <button class="Submit-Btn" type="Submit">Sign Up</button>
+        </form>
+    </div>
+    <div class="SignIn-Form">
+        <form class="Form-Model">
+            <span class="Heading">Welcome Back!</span>
+            <span class="close-SignIn">&times;</span>
+            <hr width="100%" color="grey">
+            <p>Username</p>
+            <input type="text" class="User-Input-name" placeholder="Enter your username" required>
+            <p>Password</p>
+            <input type="password" class="Input-password" placeholder="Enter your password" required>
+            <br>
+            <button class="Submit-Btn" type="Submit">Sign In</button>
+            <p class="Member">Not a member?<button type="button" class="SignIn_btn-SignUp" style="color:blue">Sign Up</button></p>
+        </form>
+    </div>
+    <div class="create-post">
+        <div class="create-content">
+            <span class="create-Heading">Pen Your Post</span>
+            <span class="close-create">&times;</span>
+            <hr width="100%" color="grey">
+            <p>Title</p>
+            <input type="text" style="margin-bottom:10px;" placeholder="Enter title of your post" class="create-title">
+            <p>Contents</p>
+            <textarea placeholder="Enter the content of your post" class="create-view"></textarea>
+            <div class="button">
+                <button class="Create-Btn" type="Submit">Create</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="common.js"></script>
+
+
 </body>
 
 </html>

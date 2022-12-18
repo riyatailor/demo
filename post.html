@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribbler</title>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="StyleSheet" href="index.css">
+    <link rel="StyleSheet" href="common.css">
+    <link rel="StyleSheet" href="post.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <span class="logo">
+            <a href="index.html"><span class="scibbler">SciBBler</span></a>
+        <span class="btn-logo">
+                <button type="button" class="SignUp_btn">Sign up</button>
+                <button type="button" class="SignIn_btn">Sign In</button>
+        </span>
+        </span>
+        <br><br><br>
+        <span class="sub_Part">Explore, Imagine, Create</span>
+    </header>
+    <div class="postTitle">
+        <div class="editTitle">
+            <h2 class="editTitle-text" contentEditable="false">Everything you should know about ‘module’ & ‘require’ in Node.js</h2>
+        </div>
+        <div class="editButton-withName">
+            <span class="authorName">Srishti Gupta</span>
+            <span class="editSymbol">Edit  <i class="fa-sharp fa-solid fa-pen-to-square"></i></span>
+            <span class="saveSymbol">Save  <i class="fa-solid fa-floppy-disk"></i></span>
+        </div>
+        <br>
+        <div class="edit-Vlog">
+            <p class="editvlog-Text" contentEditable="false">Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named
+                xyz.
+            </p>
+        </div>
+        <div class="like-btn"><i class="fa-solid fa-thumbs-up"></i> Like</div>
+        <br><br>
+        <div class="dispaylikes"></div>
+        <div class="comment-section">
+            <textarea class="comment" placeholder="Leave a comment....."></textarea>
+            <br>
+            <button class="commentSymbol">Comment</button>
+            <br>
+            <h4>All comment</h4>
+        </div>
+        <div class="AllComments">
+
+
+        </div>
+        <div class="SignUp-Form">
+            <form class="Form-Model">
+                <span class="Heading">Get Started</span>
+                <span class="close-SignUp">&times;</span>
+                <hr width="100%" color="grey">
+                <p>Name</p>
+                <input type="text" class="Input-name" placeholder="Enter your name" required>
+                <p>Username</p>
+                <input type="text" class="User-Input-name" placeholder="Enter your username" required>
+                <p>Password</p>
+                <input type="password" class="Input-password" placeholder="Enter your password" required>
+                <p>Confirm Password</p>
+                <input type="password" class="Input-Confirm-password" placeholder="Enter your Re-enter password" required>
+                <br>
+                <button class="Submit-Btn" type="Submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="SignIn-Form">
+            <form class="Form-Model">
+                <span class="Heading">Welcome Back!</span>
+                <span class="close-SignIn">&times;</span>
+                <hr width="100%" color="grey">
+                <p>Username</p>
+                <input type="text" class="User-Input-name" placeholder="Enter your username" required>
+                <p>Password</p>
+                <input type="password" class="Input-password" placeholder="Enter your password" required>
+                <br>
+                <button class="Submit-Btn" type="Submit">Sign In</button>
+                <p class="Member">Not a member?<button type="button" class="SignIn_btn-SignUp" style="color:blue">Sign Up</button></p>
+            </form>
+        </div>
+    </div>
+    <script src="post.js"></script>
+    <script src="index.js"></script>
+    <script src="common.js"></script>
+    <script src="postlist.js"></script>
+    <script src="https://kit.fontawesome.com/60c4cec9d1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.index-Body {  
+    background-image:url('../images/background.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    cursor: pointer;
+}
+
+.logo .scibbler {
+    float: left;
+}
+
+.logo .btn-logo {
+    float: right;
+}
+
+.header .logo .scibbler {
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: rgb(56, 56, 221);
+}
+
+.header .btn-logo .SignUp_btn {
+    background-color: rgb(38, 62, 219);
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.header .btn-logo .SignIn_btn {
+    background-color: rgb(38, 62, 219);
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.Post-Btn {
+    text-align: center;
+    padding-top: 280px;
+}
+
+.AllPost_Btn {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+.CreatePost_Btn {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+.AllPost_Btn:hover,
+.CreatePost_Btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.create-post {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    display: none;
+    z-index: 1;
+    padding-top: 60px;
+    padding-left: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.create-content {
+    background-color: rgb(250, 246, 246);
+    height: 630px;
+    width: 1350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.create-title {
+    width: 1342px;
+    float: left;
+    margin-top: 5px;
+    background-color: rgb(219, 216, 216);
+}
+
+.create-view {
+    width: 1345px;
+    height: 400px;
+    background-color: rgb(219, 216, 216);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.Create-Btn {
+    margin-top: 20px;
+    background-color: rgb(10, 139, 10);
+    color: white;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.create-Heading {
+    color: grey;
+    float: left;
+    font-size: 20px;
+}
+
+.close-create {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;

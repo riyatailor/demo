@@ -1,0 +1,128 @@
+.postTitle {
+    margin: 20px;
+}
+
+.editTitle-text {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 900px;
+    font-size: 25px;
+    color: black;
+    font-weight: 30px;
+    margin-left: 350px;
+}
+
+.editTitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.authorName {
+    float: left;
+    font-size: 20px;
+}
+
+.editSymbol {
+    float: right;
+    font-size: 15px;
+    background-color: rgb(249, 13, 84);
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.saveSymbol {
+    display: none;
+    float: right;
+    font-size: 15px;
+    background-color: rgb(249, 13, 84);
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.editButton-withName {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.edit-Vlog {
+    margin-top: 20px;
+}
+
+.editvlog-Text {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 1475px;
+    height: 300px;
+    text-align: left;
+}
+
+.like-btn {
+    float: left;
+    font-size: 15px;
+    background-color: rgb(249, 13, 84);
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.dispaylikes {
+    color: rgb(80, 78, 78)
+}
+
+.comment {
+    color: black;
+    margin-top: 20px;
+    height: 50px;
+    width: 600px;
+}
+
+.commentSymbol {
+    font-size: 15px;
+    background-color: rgb(249, 13, 84);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.AllComments {
+    background-color: rgb(146, 145, 145);
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.review {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 570px;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.commentsreader {
+    padding: 5px;
+}
